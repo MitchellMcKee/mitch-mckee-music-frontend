@@ -1,0 +1,9 @@
+.categoriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.section {
+    margin: 16px;
+}

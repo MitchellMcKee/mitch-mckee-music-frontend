@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import LinkButton from './Components/LinkButton/LinkButton'
+import LinkButtonGroup from './Components/LinkButtonGroup/LinkButtonGroup'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <LinkButton />
+      <LinkButtonGroup />
     </div>
   );
 }
