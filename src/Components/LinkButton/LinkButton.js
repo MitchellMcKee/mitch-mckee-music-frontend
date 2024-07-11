@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './LinkButton.module.css'
 
-function LinkButton(){
+function LinkButton(props){
   return (
     <button className={`${styles.linkButton}`}>
         <div>
-          <a className={`${styles.linkButtonText}`} >Meet the Chef</a>
+          <a className={`${styles.linkButtonText}`} >{props.text}</a>
         </div>
     </button>
   );
